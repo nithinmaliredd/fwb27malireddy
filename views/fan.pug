@@ -23,8 +23,8 @@ block content
                         "cost": 9
                     },                   
                 ]
-            each v,index in fan
-                div(class="col-sm-2" onclick=`buy(${index})`) #{v.brand}
-                div(class="col-sm-2" onclick=`buy(${index})`) #{v.material}
-                div(class="col-sm-2" onclick=`buy(${index})`) #{v.cost}
+            each n,index in fan
+                div(class="col-sm-2" onclick=`buy(${index})`) #{n.brand}
+                div(class="col-sm-2" onclick=`buy(${index})`) #{n.material}
+                div(class="col-sm-2" onclick=`buy(${index})`) #{n.cost}
   
